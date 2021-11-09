@@ -11,9 +11,9 @@ const appointmentBanner = {
     backgroundBlendMode: 'darken, luminosity',
     marginTop: 175
 }
+
 const AppointmentBanner = () => {
     return (
-        <>
         <Box style={appointmentBanner} sx={{ flexGrow: 1 }}>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6}>
@@ -42,7 +42,6 @@ const AppointmentBanner = () => {
                 </Grid>
             </Grid>
         </Box>
-        </>
     );
 };
 
