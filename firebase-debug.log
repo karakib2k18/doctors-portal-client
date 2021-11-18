@@ -1,0 +1,17 @@
+[debug] [2021-11-18T12:29:48.103Z] ----------------------------------------------------------------------
+[debug] [2021-11-18T12:29:48.105Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2021-11-18T12:29:48.105Z] CLI Version:   9.22.0
+[debug] [2021-11-18T12:29:48.105Z] Platform:      linux
+[debug] [2021-11-18T12:29:48.105Z] Node Version:  v14.18.1
+[debug] [2021-11-18T12:29:48.107Z] Time:          Thu Nov 18 2021 18:29:48 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-18T12:29:48.107Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-18T12:29:48.146Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-18T12:29:48.146Z] > authorizing via signed-in user (karakib2k17@gmail.com)
+[debug] [2021-11-18T12:29:48.146Z] [iam] checking project doctors-portal-f9575 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-11-18T12:29:48.147Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-f9575:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-11-18T12:29:50.590Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 18 Nov 2021 12:29:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=961","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-18T12:29:50.594Z] > refreshing access token with scopes: []
+[debug] [2021-11-18T12:29:50.594Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
