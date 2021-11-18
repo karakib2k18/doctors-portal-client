@@ -11,7 +11,9 @@ const MakeAdmin = () => {
         setEmail(e.target.value);
     }
     const handleAdminSubmit = e => {
+
         const user = { email };
+        //live link
         fetch('https://fathomless-sea-50814.herokuapp.com/users/admin', {
             method: 'PUT',
             headers: {
